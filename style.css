@@ -1,0 +1,55 @@
+body{
+    background-color: #f0f7ff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 30px 15px;
+}
+h1{color: #1e3a8a;}
+.intro{
+    font-size: 18px;
+    color: #444;
+}
+#message{
+    font-weight: bold;
+    color:#2563EB;
+}
+.places{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+.place-card{
+    background-color: white;
+    width: 280px;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 20px;
+    border: 2px solid #dbeafe;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+.place-img{
+    width: 100%;
+    border-radius: 10px;
+}
+.place-card p{
+    color: #555;
+    line-height: 1.6;
+}
+button{
+    background-color: #2563EB;
+    color: white;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+button:hover{background-color: #7C3AED;}
